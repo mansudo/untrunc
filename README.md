@@ -67,7 +67,7 @@ sudo cp untrunc /usr/local/bin
 
 #### macOS
 
-If homebrew is installed, use below. 
+If homebrew is installed:
 
 ```shell
 cd untrunc
