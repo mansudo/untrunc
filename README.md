@@ -65,6 +65,22 @@ make FF_VER=3.3.9
 sudo cp untrunc /usr/local/bin
 ```
 
+#### macOS
+
+If homebrew is installed, use below. 
+
+```shell
+cd untrunc
+brew install wget
+make FF_VER=3.3.9
+```
+On macOS Sequoia (15.0), change FFMPEG version
+
+```shell 
+make FF_VER=6.0.1
+```
+
+
 ## Docker container
 
 You can use the included Dockerfile to build and execute the package as a container.\
